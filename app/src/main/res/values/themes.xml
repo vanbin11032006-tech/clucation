@@ -1,0 +1,62 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AppCalucation" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#000000</item>
+    </style>
+
+    <style name="Theme.AppCalucation" parent="Base.Theme.AppCalucation" />
+
+    <!-- Style cho nút vuông (như layout cũ) -->
+    <style name="CalcButton" parent="Widget.Material3.Button.TextButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="backgroundTint">@null</item>
+    </style>
+
+    <style name="CalcButton.Function">
+        <item name="android:background">#D4D4D2</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="CalcButton.Number">
+        <item name="android:background">#505050</item>
+    </style>
+
+    <style name="CalcButton.Operator">
+        <item name="android:background">#FF9500</item>
+    </style>
+
+    <!-- Style cho nút TRÒN -->
+    <style name="CalcButtonRound" parent="Widget.Material3.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">40dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="CalcButtonRound.Function">
+        <item name="backgroundTint">#A5A5A5</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="CalcButtonRound.Number">
+        <item name="backgroundTint">#333333</item>
+    </style>
+
+    <style name="CalcButtonRound.Operator">
+        <item name="backgroundTint">#FF9F0A</item>
+    </style>
+</resources>
